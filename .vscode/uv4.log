@@ -2,7 +2,7 @@
 Build target 'GUANGDIAN'
 compiling Track.c...
 linking...
-Program Size: Code=44818 RO-data=454 RW-data=136 ZI-data=2256  
+Program Size: Code=46518 RO-data=454 RW-data=136 ZI-data=2256  
 FromELF: creating hex file...
 "GUANGDIAN\GUANGDIAN.axf" - 0 Error(s), 0 Warning(s).
-Build Time Elapsed:  00:00:02
+Build Time Elapsed:  00:00:03
