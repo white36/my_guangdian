@@ -1,6 +1,0 @@
---cpu Cortex-M4.fp.sp -g --apcs=interwork 
--I.\RTE\_GUANGDIAN
--IC:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
--IC:\Keil_v5\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
---pd "__UVISION_VERSION SETA 534" --pd "_RTE_ SETA 1" --pd "STM32F407xx SETA 1" --pd "_RTE_ SETA 1"
---list startup_stm32f407xx.lst --xref -o guangdian\startup_stm32f407xx.o --depend guangdian\startup_stm32f407xx.d "startup_stm32f407xx.s"
