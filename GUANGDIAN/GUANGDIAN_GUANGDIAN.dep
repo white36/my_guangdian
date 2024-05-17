@@ -1,7 +1,7 @@
 Dependencies for Project 'GUANGDIAN', Target 'GUANGDIAN': (DO NOT MODIFY !)
 CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
 F (startup_stm32f407xx.s)(0x660AB082)(--cpu Cortex-M4.fp.sp -g --apcs=interwork -I.\RTE\_GUANGDIAN-IC:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 534" --pd "_RTE_ SETA 1" --pd "STM32F407xx SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32f407xx.lst --xref -o guangdian\startup_stm32f407xx.o --depend guangdian\startup_stm32f407xx.d)
-F (../Core/Src/main.c)(0x6646D95D)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../User-I.\RTE\_GUANGDIAN-IC:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o guangdian\main.o --omf_browse guangdian\main.crf --depend guangdian\main.d)
+F (../Core/Src/main.c)(0x664716AE)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../User-I.\RTE\_GUANGDIAN-IC:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o guangdian\main.o --omf_browse guangdian\main.crf --depend guangdian\main.d)
 I (../Core/Inc/main.h)(0x664351FE)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x65E29588)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x660AB07E)
@@ -34,10 +34,10 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x65E29588)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x65E29588)
 I (../Core/Inc/tim.h)(0x6606E95A)
 I (../Core/Inc/gpio.h)(0x6606E958)
-I (../User/Motor.h)(0x6627A825)
+I (../User/Motor.h)(0x664734B4)
 I (../User/DuoJi.h)(0x6646D9A6)
 I (../User/TCS320.h)(0x66291B35)
-I (../User/Track.h)(0x66460F97)
+I (../User/Track.h)(0x66472573)
 I (../User/control.h)(0x6606F8B4)
 I (../User/zhiru.h)(0x658BB186)
 I (../User/Encoder.h)(0x660763A8)
@@ -75,10 +75,10 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x65E29588)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x65E29588)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x65E29588)
 I (../Core/Inc/tim.h)(0x6606E95A)
-I (../User/Motor.h)(0x6627A825)
+I (../User/Motor.h)(0x664734B4)
 I (../User/DuoJi.h)(0x6646D9A6)
 I (../User/TCS320.h)(0x66291B35)
-I (../User/Track.h)(0x66460F97)
+I (../User/Track.h)(0x66472573)
 I (../User/control.h)(0x6606F8B4)
 I (../User/zhiru.h)(0x658BB186)
 I (../User/Encoder.h)(0x660763A8)
@@ -116,10 +116,10 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x65E29588)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x65E29588)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x65E29588)
 I (../Core/Inc/gpio.h)(0x6606E958)
-I (../User/Motor.h)(0x6627A825)
+I (../User/Motor.h)(0x664734B4)
 I (../User/DuoJi.h)(0x6646D9A6)
 I (../User/TCS320.h)(0x66291B35)
-I (../User/Track.h)(0x66460F97)
+I (../User/Track.h)(0x66472573)
 I (../User/control.h)(0x6606F8B4)
 I (../User/zhiru.h)(0x658BB186)
 I (../User/Encoder.h)(0x660763A8)
@@ -157,10 +157,10 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x65E29588)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x65E29588)
 I (../Core/Inc/tim.h)(0x6606E95A)
 I (../Core/Inc/gpio.h)(0x6606E958)
-I (../User/Motor.h)(0x6627A825)
+I (../User/Motor.h)(0x664734B4)
 I (../User/DuoJi.h)(0x6646D9A6)
 I (../User/TCS320.h)(0x66291B35)
-I (../User/Track.h)(0x66460F97)
+I (../User/Track.h)(0x66472573)
 I (../User/control.h)(0x6606F8B4)
 I (../User/zhiru.h)(0x658BB186)
 I (../User/Encoder.h)(0x660763A8)
@@ -199,10 +199,10 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x65E29588)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x65E29588)
 I (../Core/Inc/tim.h)(0x6606E95A)
 I (../Core/Inc/gpio.h)(0x6606E958)
-I (../User/Motor.h)(0x6627A825)
+I (../User/Motor.h)(0x664734B4)
 I (../User/DuoJi.h)(0x6646D9A6)
 I (../User/TCS320.h)(0x66291B35)
-I (../User/Track.h)(0x66460F97)
+I (../User/Track.h)(0x66472573)
 I (../User/control.h)(0x6606F8B4)
 I (../User/zhiru.h)(0x658BB186)
 I (../User/Encoder.h)(0x660763A8)
@@ -688,7 +688,7 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x65E29588)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x65E29588)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x65E29588)
 F (..\User\Motor.c)(0x6638CB09)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../User-I.\RTE\_GUANGDIAN-IC:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o guangdian\motor.o --omf_browse guangdian\motor.crf --depend guangdian\motor.d)
-I (..\User\Motor.h)(0x6627A825)
+I (..\User\Motor.h)(0x664734B4)
 I (../Core/Inc/main.h)(0x664351FE)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x65E29588)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x660AB07E)
@@ -721,10 +721,10 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x65E29588)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x65E29588)
 I (../Core/Inc/tim.h)(0x6606E95A)
 I (../Core/Inc/gpio.h)(0x6606E958)
-I (../User/Motor.h)(0x6627A825)
+I (../User/Motor.h)(0x664734B4)
 I (../User/DuoJi.h)(0x6646D9A6)
 I (../User/TCS320.h)(0x66291B35)
-I (../User/Track.h)(0x66460F97)
+I (../User/Track.h)(0x66472573)
 I (../User/control.h)(0x6606F8B4)
 I (../User/zhiru.h)(0x658BB186)
 I (../User/Encoder.h)(0x660763A8)
@@ -763,10 +763,10 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x65E29588)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x65E29588)
 I (../Core/Inc/tim.h)(0x6606E95A)
 I (../Core/Inc/gpio.h)(0x6606E958)
-I (../User/Motor.h)(0x6627A825)
+I (../User/Motor.h)(0x664734B4)
 I (../User/DuoJi.h)(0x6646D9A6)
 I (../User/TCS320.h)(0x66291B35)
-I (../User/Track.h)(0x66460F97)
+I (../User/Track.h)(0x66472573)
 I (../User/control.h)(0x6606F8B4)
 I (../User/zhiru.h)(0x658BB186)
 I (../User/Encoder.h)(0x660763A8)
@@ -805,16 +805,16 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x65E29588)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x65E29588)
 I (../Core/Inc/tim.h)(0x6606E95A)
 I (../Core/Inc/gpio.h)(0x6606E958)
-I (../User/Motor.h)(0x6627A825)
+I (../User/Motor.h)(0x664734B4)
 I (../User/DuoJi.h)(0x6646D9A6)
 I (../User/TCS320.h)(0x66291B35)
-I (../User/Track.h)(0x66460F97)
+I (../User/Track.h)(0x66472573)
 I (../User/control.h)(0x6606F8B4)
 I (../User/zhiru.h)(0x658BB186)
 I (../User/Encoder.h)(0x660763A8)
 I (../User/Path_planning.h)(0x661B5A78)
-F (..\User\Track.c)(0x6646D7D1)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../User-I.\RTE\_GUANGDIAN-IC:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o guangdian\track.o --omf_browse guangdian\track.crf --depend guangdian\track.d)
-I (..\User\Track.h)(0x66460F97)
+F (..\User\Track.c)(0x664729D8)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../User-I.\RTE\_GUANGDIAN-IC:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o guangdian\track.o --omf_browse guangdian\track.crf --depend guangdian\track.d)
+I (..\User\Track.h)(0x66472573)
 I (../Core/Inc/main.h)(0x664351FE)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x65E29588)
 I (../Core/Inc/stm32f4xx_hal_conf.h)(0x660AB07E)
@@ -847,10 +847,10 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x65E29588)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x65E29588)
 I (../Core/Inc/tim.h)(0x6606E95A)
 I (../Core/Inc/gpio.h)(0x6606E958)
-I (../User/Motor.h)(0x6627A825)
+I (../User/Motor.h)(0x664734B4)
 I (../User/DuoJi.h)(0x6646D9A6)
 I (../User/TCS320.h)(0x66291B35)
-I (../User/Track.h)(0x66460F97)
+I (../User/Track.h)(0x66472573)
 I (../User/control.h)(0x6606F8B4)
 I (../User/zhiru.h)(0x658BB186)
 I (../User/Encoder.h)(0x660763A8)
@@ -889,10 +889,10 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x65E29588)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x65E29588)
 I (../Core/Inc/tim.h)(0x6606E95A)
 I (../Core/Inc/gpio.h)(0x6606E958)
-I (../User/Motor.h)(0x6627A825)
+I (../User/Motor.h)(0x664734B4)
 I (../User/DuoJi.h)(0x6646D9A6)
 I (../User/TCS320.h)(0x66291B35)
-I (../User/Track.h)(0x66460F97)
+I (../User/Track.h)(0x66472573)
 I (../User/control.h)(0x6606F8B4)
 I (../User/Encoder.h)(0x660763A8)
 I (../User/Path_planning.h)(0x661B5A78)
@@ -931,15 +931,15 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x65E29588)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x65E29588)
 I (../Core/Inc/tim.h)(0x6606E95A)
 I (../Core/Inc/gpio.h)(0x6606E958)
-I (../User/Motor.h)(0x6627A825)
+I (../User/Motor.h)(0x664734B4)
 I (../User/DuoJi.h)(0x6646D9A6)
 I (../User/TCS320.h)(0x66291B35)
-I (../User/Track.h)(0x66460F97)
+I (../User/Track.h)(0x66472573)
 I (../User/control.h)(0x6606F8B4)
 I (../User/zhiru.h)(0x658BB186)
 I (../User/Encoder.h)(0x660763A8)
 I (../User/Path_planning.h)(0x661B5A78)
-F (..\User\Path_planning.c)(0x6646D8EF)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../User-I.\RTE\_GUANGDIAN-IC:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o guangdian\path_planning.o --omf_browse guangdian\path_planning.crf --depend guangdian\path_planning.d)
+F (..\User\Path_planning.c)(0x6647275E)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ../User-I.\RTE\_GUANGDIAN-IC:\Keil_v5\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Keil_v5\Arm\Packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o guangdian\path_planning.o --omf_browse guangdian\path_planning.crf --depend guangdian\path_planning.d)
 I (..\User\Path_planning.h)(0x661B5A78)
 I (../Core/Inc/main.h)(0x664351FE)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x65E29588)
@@ -973,10 +973,10 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x65E29588)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x65E29588)
 I (../Core/Inc/tim.h)(0x6606E95A)
 I (../Core/Inc/gpio.h)(0x6606E958)
-I (../User/Motor.h)(0x6627A825)
+I (../User/Motor.h)(0x664734B4)
 I (../User/DuoJi.h)(0x6646D9A6)
 I (../User/TCS320.h)(0x66291B35)
-I (../User/Track.h)(0x66460F97)
+I (../User/Track.h)(0x66472573)
 I (../User/control.h)(0x6606F8B4)
 I (../User/zhiru.h)(0x658BB186)
 I (../User/Encoder.h)(0x660763A8)
